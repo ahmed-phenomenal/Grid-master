@@ -1,0 +1,367 @@
+/*Global Rules*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Arvo", sans-serif;
+}
+span{
+    font-family: "Montserrat", sans-serif;
+}
+
+/*parent*/
+.container{
+    display: grid;
+    grid-template-areas: 
+    "one two three three"
+    "four five six seven"
+    "eight nine nine seven"
+    "ten eleven twelve twelve"
+    ;
+}
+.card{
+    height: 400px;
+}
+/*first card*/
+.one{
+    grid-area: one;
+    padding-top: 20%;
+}
+.one p span{
+    color: #9fa3a7;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.one h2{
+    color: #333333;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 0;
+    width: 50%;
+    margin-left:25%;
+}
+.one p{
+    font-size: 14px;
+    color: #9fa3a7;
+    padding: 10px 0;
+    margin-left:25%;
+}
+
+/*Two*/
+.two{
+    grid-area: two;
+}
+.two img{
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+/*Three*/
+.three{
+    grid-area: three;
+    padding-top: 10%;
+}
+.three p{
+    text-align: center;
+}
+.three p span{
+    color: #9fa3a7;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.three h2{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 10px 0;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.three p a{
+    font-size: 14px;
+    color: #27BFD2;
+    padding: 5px 0;
+}
+
+/*Four*/
+
+.four{
+    grid-area: four;
+    padding-top:20% ;
+}
+.four img{
+    height: 200px;
+    width: 100%;
+}
+.four h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding:10px 0;
+    width: 90%;
+    text-align: center;
+}
+.four p{
+    text-align: center;
+    padding:10px 0;
+
+}
+.four p a{
+    text-transform: uppercase;
+    color: #FFC80A;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.four p a i{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/*Five*/
+.five{
+    grid-area: five;
+    padding-top: 20%;
+}
+.five p{
+    text-align: center;
+}
+.five p span{
+    color: #9fa3a7;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.five h2{
+    color: #333333;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 0;
+    text-align: center;
+    width: 55%;
+    margin: auto;
+}
+.five img{
+    width: 100%;
+    height: 200px;
+}
+
+/*six*/
+.six{
+    grid-area: six;
+    padding-top: 10%;
+}
+.six p{
+    color: #9fa3a7;
+    padding: 10px 30px;
+}
+.six p a{
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #27BFD2;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.six p a i{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+/*seven*/
+.seven{
+    grid-area: seven;
+    background-color: #8F76BC;
+    height: 800px;
+    padding-top: 20%;
+}
+.seven p{
+    text-align: center;
+    color: white;
+}
+.seven p i{
+    color: #FFC80A;
+    padding-right: 10px;
+}
+.seven .p1{
+    border-radius: 10px;
+    background-color: rgb(0 0 0 / 20% );
+    width: 80px;
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+}
+.seven img{
+    width: 200px;
+    height: 200px;
+    padding: 10px 0;
+    margin-left: 25%;
+}
+.seven .div1{
+    background-color: #8166B0;
+    border-radius: 50%;
+    padding: 80px 0;
+    height: 400px;
+}
+.seven h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px 0;
+    text-align: center;
+}
+.seven .p2{
+    width: 75%;
+    margin: auto;
+}
+.seven button{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 20px 40px;
+    background-color: #FFC80A;
+    border: 1px solid #FFC80A;
+    border-radius: 30px;
+}
+.seven button a{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+/*eight*/
+.eight{
+    grid-area: eight;
+}
+.eight img{
+    width: 100%;
+    height: 200px;
+}
+.eight h2{
+    color: #333333;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: center;
+}
+.eight p{
+    text-align: center;
+}
+.eight p a{
+    text-transform: uppercase;
+    color: #27BFD2;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.eight p a i{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+/*nine*/
+.nine{
+    grid-area: nine;
+    background-color: #93B6B7;
+}
+.nine img{
+    height: 300px;
+    width: 100%;
+}
+.nine h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding:10px 0;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.nine p{
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #F05638;
+    width: 60px;
+    text-align: center;
+    font-size: 8px;
+    height: 15px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*ten*/
+.ten{
+    grid-area: ten;
+    background-color: #38D5F4;
+    height: 200px;
+}
+.ten img{
+    width: 15%;
+    height: 35px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.ten h2{
+    color: white;
+    font-size: 22px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-weight: 400;
+}
+/*eleven*/
+.eleven{
+    grid-area: eleven;
+    height: 200px;
+}
+.eleven p{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    width: fit-content;
+    background-color: #7BC424;
+    margin: auto;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+    margin-top: 15%;
+    border-radius: 5px;
+}
+.eleven h2{
+    font-size: 22px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-weight: 400;
+    color: #333333;
+    padding: 10px 0;
+}
+/*twelve*/
+.twelve{
+    grid-area: twelve;
+    height: 200px;
+    background-color: #2C2C2C;
+    display: flex;
+    justify-content: space-between;
+}
+.twelve img{
+    width: 35%;
+    height: 200px;
+}
+.twelve h2{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    color: white;
+}
